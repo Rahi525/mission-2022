@@ -22,7 +22,7 @@ h1{
     align-items: center;
 }
 .half-width{
-    width: 75%;
+    width: 50%;
 }
 /* .half-width img{
     width: 100%;
@@ -36,10 +36,9 @@ h1{
     width: 100%;
 }
 .rectangle{
-    width: 2px;
-    height:80px;
-    border:1px solid #000;
-    background-color: black;
+    width: 3px;
+    height:75px;
+    background-color: #e66161;
 }
 .button{
     padding: 15px 30px;
@@ -93,14 +92,17 @@ h1{
     border-radius: 20px;
     width: 100%;
 }
-.subscribe-box{
-    display: flex;
-    width: 90%;
-    margin: 5%;
-    padding: 2%;
-    border-radius: 10px;
-    text-align:center;
-    box-shadow: 10px 10px 40px gray;
+
+.community-box img{
+    border-radius: 20px;
+    width: 50%;
+}
+.commitment-sec h1{
+    text-align: center;
+}
+.commitment-sec img{
+    border-radius: 20px;
+    width: 50%;
 }
 .footer-sec{
     display: flex;
@@ -112,5 +114,8 @@ h1{
     background-color: black;
 }
 footer p{
+    color: white;
+}
+footer h1{
     color: white;
 }
