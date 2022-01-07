@@ -1,0 +1,116 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 35px;
+    font-weight: 600;
+    color: #000;
+}
+.special-color{
+    color: #e66161;
+}
+.sub-head{
+    color: rgb(48, 42, 42);
+    font-weight: normal;
+}
+.display-flex{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    align-items: center;
+}
+.half-width{
+    width: 75%;
+}
+/* .half-width img{
+    width: 100%;
+} */
+/* .stay-focused{
+    margin-left: 10px;
+} */
+.title-text{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.rectangle{
+    width: 2px;
+    height:80px;
+    border:1px solid #000;
+    background-color: black;
+}
+.button{
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px red;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #bea2a2,#f34747);
+    color: white;
+}
+.mission-box-sec{
+    text-align: center;
+    align-items: center;
+}
+.mission-box{
+    width: 30%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 1%;
+    border-radius: 20px;
+    text-align:left;
+}
+.h3{
+    font-weight: 700;
+}
+.mission-box img{
+    width: 50%;
+    height: 50%;
+}
+#mission{
+    background-color: rgba(218, 214, 217, 0.486);
+}
+#vision{
+    background-color: rgb(236, 229, 200);
+}
+#goals{
+    background-color: #f7dada;
+}
+/* .develop-sec{
+    justify-content: center;
+    align-items: center;
+} */
+.develop-sec img{
+    border-radius: 20px;
+    width: 100%;
+}
+/* .community-sec{
+    justify-content: space-around;
+    align-items: center;
+} */
+.community-sec img{
+    border-radius: 20px;
+    width: 100%;
+}
+.subscribe-box{
+    display: flex;
+    width: 90%;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 10px;
+    text-align:center;
+    box-shadow: 10px 10px 40px gray;
+}
+.footer-sec{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin-top: 10%;
+    text-align: center;
+    background-color: black;
+}
+footer p{
+    color: white;
+}
